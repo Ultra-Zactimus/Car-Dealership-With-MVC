@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My To-Do List!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+    <h1>Add your car to sell!</h1>
+      <form action="/cars" method="post">
+        <label for="year">Car Year: </label>
+        <input id="year" name="year" type="number" >
+        <label for="makeModel">Cars Make and Model: </label>
+        <input id="makeModel" name="makeModel" type="text">
+        <label for="miles">Current Car Miles:</label>
+        <input id="miles" name="miles" type="number">
+        <label for="price">Car Price:</label>
+        <input id="price" name="price" type="number">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
